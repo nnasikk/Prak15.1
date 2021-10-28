@@ -9,6 +9,7 @@ public class Robot extends Thread {
     public void stepping()
     {
         Thread step_left = new Thread(leg_left);
+
         Thread step_right = new Thread(leg_right);
         step_left.start();
         step_right.start();

@@ -5,6 +5,7 @@ public class Step implements Runnable{
     protected String which_leg;
     public Step(Robot robot, String w)
     {
+
         this.robot = robot;
         this.which_leg = w;
     }
